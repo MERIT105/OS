@@ -511,7 +511,7 @@ def remove_reseller(message):
         
         except ValueError:
             bot.reply_to(message, "𝗣𝗹𝗲𝗮𝘀𝗲 𝗽𝗿𝗼𝘃𝗶𝗱𝗲 𝗮 𝘃𝗮𝗹𝗶𝗱 𝗿𝗲𝘀𝗲𝗹𝗹𝗲𝗿 𝗜𝗗")
-         else:
+    else:
         bot.reply_to(message, "⛔️ 𝗔𝗰𝗰𝗲𝘀𝘀 𝗗𝗲𝗻𝗶𝗲𝗱: 𝗔𝗱𝗺𝗶𝗻 𝗼𝗻𝗹𝘆 𝗰𝗼𝗺𝗺𝗮𝗻𝗱")
 
 # New /broadcast command
