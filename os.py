@@ -12,10 +12,11 @@ from telebot import types
 from dateutil.relativedelta import relativedelta
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('7900112910:AAG_XTgMOF-OeBEq0aSZP9XWZRCy2KjbhDM')
+bot = telebot.TeleBot('7900112910:AAFJO_srF24zKH7x_a_ou6b_VIwliCFs704')
 
 # Admin user IDs
-admin_id = {"5712886230,919737611"}
+admin_id = {"5712886230"}
+admin_id = {"919737611"}
 
 # Files for data storage
 USER_FILE = "users.json"
